@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrati Page</title>
+
     <script>
+
         function controllaPassword() {
+
             var password = document.getElementById("password").value;
             var confermaPassword = document.getElementById("conferma_password").value;
 
             if (password != confermaPassword) {
-                alert("La password e la conferma password devono coincidere.");
+
+                alert("La password e la conferma password non coincidono.");
                 return false;
+
             } else {
                 return true;
-
             }
         }
+
     </script>
+
 </head>
 <body>
 
