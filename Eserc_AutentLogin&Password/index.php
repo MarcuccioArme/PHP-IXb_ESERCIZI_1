@@ -17,9 +17,10 @@
         <input type="hidden" name="provenienza" value="1"> <br><br>
 
         <input type="submit" name="login" value="LOGIN">
-        <input type="submit" name="registrati" value="REGISTRATI">
-
+        
     </form>
+
+    <br> <button onclick="location.href='registrati.php'">REGISTRATI</button>
     
 </body>
 </html>
