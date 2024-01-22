@@ -35,14 +35,14 @@
             $nuovoUtente = $_POST['username'];
             $nuovaPassowrd = $_POST['password'];
 
-            if (!array_key_exists($nuovoUtente, $users)) {
+            if (!array_key_exists($nuovoUtente, $utenti)) {
 
-                $users[$nuovoUtente] = $nuovaPassowrd;
+                $utenti[$nuovoUtente] = $nuovaPassowrd;
 
                 $_SESSION['username'] = $nuovoUtente;
                 $_SESSION['password'] = $nuovaPassowrd;
 
-                echo "Benvenuto, $nuovoUtente!";
+                echo "Benvenuto, $nuovoUtente! <br><br>";
                 echo '<button onclick="location.href=\'continua.php\'">CONTINUA</button>';
 
             } else {
