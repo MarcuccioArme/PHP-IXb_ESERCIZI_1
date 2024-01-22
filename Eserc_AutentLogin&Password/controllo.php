@@ -5,7 +5,8 @@
     $utenti = [
         'armenise' => '1234',
         'pippo' => '1234',
-        'pluto' => '1234'
+        'pluto' => '1234',
+        'peppe' => '1234'
     ];
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
