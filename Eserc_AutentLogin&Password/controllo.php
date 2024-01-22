@@ -21,7 +21,7 @@
                 $_SESSION["password"] = $password;
 
                 echo "Benvenuto, $username! <br><br>";
-                echo '<button onclick="location.href=\'page4.php\'">CONTINUA</button>';
+                echo '<button onclick="location.href=\'continua.php\'">CONTINUA</button>';
 
             } else {
 
@@ -43,7 +43,7 @@
                 $_SESSION['password'] = $nuovaPassowrd;
 
                 echo "Benvenuto, $nuovoUtente!";
-                echo '<button onclick="location.href=\'page4.php\'">CONTINUA</button>';
+                echo '<button onclick="location.href=\'continua.php\'">CONTINUA</button>';
 
             } else {
 
